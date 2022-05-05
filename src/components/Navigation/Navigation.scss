@@ -1,0 +1,19 @@
+@use "../../styles/core/variables" as *;
+@use "../../styles/core/typography" as *;
+@use "../../styles/core/mixins" as *;
+
+@include desktop {
+  .nav {
+    &__layer {
+      @include flex(space-between, center);
+      margin: 0 1.25rem;
+    }
+
+    &__left,
+    &__list,
+    &__right,
+    &__basket-container {
+      @include flex(space-between, center);
+    }
+  }
+}
