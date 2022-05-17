@@ -1,0 +1,59 @@
+@use "../../styles/core/variables" as *;
+@use "../../styles/core/typography" as *;
+@use "../../styles/core/mixins" as *;
+
+.hero {
+  display: flex;
+  overflow: hidden;
+  transition: 1.5s ease-in-out;
+
+  &__conatiner {
+    @include flex(space-between, center);
+    height: 100%;
+    transition: 1.5s ease-in-out;
+  }
+
+  &__slide-container {
+    @include flex(space-evenly, center);
+    @include height-width(100%, 100vw);
+    transition: 1.5s ease-in-out;
+  }
+
+  &__image-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__image-container,
+  &__info-container {
+    width: 50%;
+  }
+
+  &__info-container {
+    text-align: center;
+  }
+
+  &__image {
+    @include flex(center, center);
+    height: 100%;
+  }
+
+  &__info-title {
+    margin-bottom: 10px;
+  }
+
+  &__info-button {
+    @include font-source(1.25rem, 500);
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 0.625rem;
+    background-color: transparent;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      background-color: whitesmoke;
+    }
+  }
+}
