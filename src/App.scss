@@ -1,0 +1,46 @@
+@use "./styles/core/typography" as *;
+@use "./styles/core/mixins" as *;
+@use "./styles/core/variables" as *;
+
+// Resets & Global Styles
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: "Cormorant_Garamond", serif;
+  color: $primaryText;
+}
+
+// font styles
+
+@include desktop {
+  h1 {
+    @include font-source(2.5rem, 700, "Playfair_Display");
+  }
+
+  h2 {
+    @include font-source(1.25rem, 700, "Playfair_Display");
+  }
+
+  h3 {
+    @include font-source(1.25rem, 600);
+  }
+
+  p {
+    @include font-source(0.875rem, 400);
+  }
+}
