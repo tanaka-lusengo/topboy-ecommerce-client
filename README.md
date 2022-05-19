@@ -1,7 +1,7 @@
 # TopBoy eCommerce - Client
 
 A fashion eCommerce website
-- Deployed site can be found here: ...
+- Deployed site can be found here: TBC
 
 ## Table of Content:
 - About The App
@@ -12,15 +12,18 @@ A fashion eCommerce website
 
 ## Technologies
 
-TopBoy eCommerce uses a number of technoloies to work properly:
+TopBoy eCommerce uses a number of technoloies to work:
 
-MERN Stack
+- [Sass]
 - [JavaScript]
+- [React js]
+- [REDUX]
 - [Mongo DB] 
 - [Express] 
-- [React js]
+- [Stripe]
+- [JWT]
 - [node js] 
-- [Sass]
+
 
 ## Setup / Installation
 
@@ -55,5 +58,5 @@ Open http://localhost:3000 to view it in your browser.
 TopBoy eCommerce is in Version 1 
 
 ## Contact
-- Tanaka Lusengo - tc.lusengo@gmail.com
+- Tanaka Lusengo - tc.lusengo@gmail.com | https://www.linkedin.com/in/tanakalusengo/
 - Project Link: https://github.com/tanaka-lusengo/topboy-ecommerce-client
