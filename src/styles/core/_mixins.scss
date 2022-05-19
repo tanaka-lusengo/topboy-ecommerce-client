@@ -14,9 +14,10 @@
 }
 
 // fonts
-@mixin font-source($size, $weight) {
+@mixin font-source($size, $weight, $font-family: "Cormorant_Garamond") {
   font-size: $size;
   font-weight: $weight;
+  font-family: $font-family;
   letter-spacing: 0.8px;
 }
 
