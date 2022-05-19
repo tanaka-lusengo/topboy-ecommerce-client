@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.scss";
 import { Redirect, Route, Switch } from "react-router-dom";
-import Home from "./pages/Home/Home";
+import Home from "./pages/Home";
 import Navigation from "./components/Navigation/Navigation";
-import Advert from "./components/Advert/Advert";
+import Advert from "./components/Advert";
 
 const App = () => {
   return (
