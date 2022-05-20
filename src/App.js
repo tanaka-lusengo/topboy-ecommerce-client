@@ -4,6 +4,7 @@ import { Redirect, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import Navigation from "./components/Navigation/Navigation";
 import Advert from "./components/Advert";
+import ProductList from "./pages/ProductList";
 
 const App = () => {
   return (
@@ -12,7 +13,7 @@ const App = () => {
       <Navigation />
       <Switch>
         <Redirect from="/home" to="/" />
-        <Route path="/" exact component={Home} />
+        <Route path="/" exact component={ProductList} />
       </Switch>
     </div>
   );
