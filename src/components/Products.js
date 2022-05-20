@@ -20,7 +20,7 @@ const Container = styled.div`
 const Products = () => {
   return (
     <>
-      <Title> Popular Products</Title>
+      {/* <Title> Popular Products</Title> */}
       <Container>
         {popularProducts.map((item) => {
           return <ProductItem item={item} key={uuidv4()} />;
