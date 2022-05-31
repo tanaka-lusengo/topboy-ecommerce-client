@@ -2,13 +2,9 @@ import styled from "styled-components";
 import Footer from "../components/Footer";
 import Newsletter from "../components/Newsletter";
 import Products from "../components/Products";
+import { StyledTitle } from "../components/Title";
 
 const Container = styled.div``;
-
-const Title = styled.h1`
-  margin: 25px 0 25px 150px;
-  letter-spacing: -2px;
-`;
 
 const FilterContainer = styled.div`
   display: flex;
@@ -30,7 +26,7 @@ const Option = styled.option``;
 const ProductList = () => {
   return (
     <Container>
-      <Title>Blazers</Title>
+      <StyledTitle>Blazers</StyledTitle>
       <FilterContainer>
         <Filter>
           <FilterText>Filter Products:</FilterText>

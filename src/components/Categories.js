@@ -1,13 +1,10 @@
 import styled from "styled-components";
 import CategoryItem from "../components/CategoryItem";
 import { categories } from "../data/data";
+import { StyledTitle } from "../components/Title";
 import { v4 as uuidv4 } from "uuid";
 
 //styled components:
-const Title = styled.h1`
-  margin: 25px 0 25px 150px;
-  letter-spacing: -2px;
-`;
 
 const Container = styled.div`
   display: flex;
@@ -18,7 +15,7 @@ const Container = styled.div`
 const Categories = () => {
   return (
     <>
-      <Title>Categories</Title>
+      <StyledTitle>Categories</StyledTitle>
       <Container>
         {categories.map((item) => {
           return <CategoryItem item={item} key={uuidv4()} />;
