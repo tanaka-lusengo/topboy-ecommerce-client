@@ -1,4 +1,4 @@
-# TopBoy eCommerce - Client
+# TopBoy eCommerce - Client (Work In Progress)
 
 A fashion eCommerce website
 - Deployed site can be found here: TBC
