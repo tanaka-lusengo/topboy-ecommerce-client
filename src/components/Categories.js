@@ -5,7 +5,6 @@ import { StyledTitle } from "../components/Title";
 import { v4 as uuidv4 } from "uuid";
 
 //styled components:
-
 const Container = styled.div`
   display: flex;
   justify-content: space-between;
